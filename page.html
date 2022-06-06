@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Seu destino</title>
+        <link rel="stylesheet" href="./style.css" />
+        <script type="text/javaScript" src="./logic.js" defer ></script>
+    </head>
+
+    <body>
+        <div class="middle-placement" id="page-content-container">
+            <section class="image-container" id="image-container"> 
+                <img src="./pngwing.com.png" alt="imagem de uma bola de cristal" id="image" /> 
+            </section>
+             <section class="main-text" id="main-text" >   
+                <h1>Quer saber o seu destino?</h1>
+                <p>Faça perguntas para a bola de cristal</p>
+            </section>
+            <section clas="question-container" id="bottom-container">
+                <input id="input-box" type="text" placeholder="Digite sua pergunta" />
+                <br>
+                <button id="button" onclick="showText()">fazer pergunta!</button>
+            </section>
+            <section id="answer-box">
+                <p id="answer-place"></p>
+            </section>
+        </div>
+    </body>
+</html>
